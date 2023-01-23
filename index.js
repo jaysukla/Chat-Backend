@@ -6,12 +6,11 @@ const server = http.createServer(aap);
 
 // const port = process.env.PORT || 3000
 
-// aap.use(express.static(__dirname+'/public'))
+
 
 aap.get('/',(req,res)=>{
       
-res.send("API based Url")
-
+res.send("Api based Url")
 })
 
 
